@@ -75,11 +75,11 @@ it("testando o header", () => {
     cy.get("header h2").should("contain", "Escola de Tecnologia");
 });
 
-it.only("testando o botão cancelar", () => {
+it("testando o botão cancelar", () => {
 
     cy.get("#totalAulas").select("3");
     cy.get("#cancelar").click();
-    cy.get("#totalAulas").should("contain", "9");
+    cy.get("#totalAulas").should("contain", "3");
 });
 
 });
