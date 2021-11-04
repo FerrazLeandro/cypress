@@ -1,0 +1,14 @@
+{
+  "name": "aula04",
+  "version": "1.0.0",
+  "description": "primeiro projeto com cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.7.0"
+  }
+}
